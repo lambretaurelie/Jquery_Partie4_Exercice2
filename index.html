@@ -7,17 +7,16 @@
 </head>
 <body>
   <div>
+    <h4>Rentrer des notes :</h4>
     <form>
-      <h4>Entrez vos cinq dernières notes : </h4>
-      <label for="math">Math : <input type="text" name="math" id="math" value=""/></label>
-      <label for="francais">Francais : <input type="text" name="francais" id="francais" value="" /></label>
-      <label for="geo">Geo : <input type="text" name="geo" id="geo" value="" /></label>
-      <label for="svt">SVT : <input type="text" name="svt" id="svt" value="" /></label>
-      <label for="eps">EPS : <input type="text" name="eps" id="eps" value="" /></label>
+      <label for="math">Math :</label><input type="text" name="math" id="math" value="">
+      <label for="francais">Francais :</label><input type="text" id="francais" name="francais" value="">
+      <label for="geo">Geo :</label><input type="text" id="geo" value="" name="geo">
+      <label for="svt">Svt :</label><input type="text" id="svt" value="" name="svt">
+      <label for="eps">Eps :</label><input type="text" id="eps" value="" name="eps">
     </form>
+    <button type="button" id="average">Moyenne</button>
   </div>
-  <button type="button" name="compare" id="valid">Valider</button>
-  <script src="assets/js/index.js">
-  </script>
+  <script src="assets/js/index.js"></script>
 </body>
 </html>
